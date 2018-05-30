@@ -46,12 +46,12 @@ nav ul li {
 
 .dropdown:hover > ul {
     display: block;
-    background-color: rgba(88, 68, 79, 0.91);
+    background-color: rgba(255, 255, 255, 0.82);
 }
 
 .dropdown:hover > ul a {
-    color: white;
-    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.92);
+    text-decoration: none;
 }
 
 nav a {

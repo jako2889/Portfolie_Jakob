@@ -1,61 +1,275 @@
+html {
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(37, 41, 50);
+    position: absolute;
+}
+
+#container {
+    background-color: rgb(37, 41, 50);
+    position: absolute;
+    height: 120vw;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .5);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#container p {
+    padding: 0em 20em 0em 20em;
+}
+
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
 header {
-    position: fixed;
-    width: 100%;
-    height: 55px;
-    top: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+}
+
+
+header h1 {
+    margin-top: -100px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, .5);
+}
+
+header, header:before {
+
+    background: 50% 50% / cover;
+}
+
+header::before {
+    bottom: 0;
+    content: "";
     left: 0;
-    padding: 30px 0;
-    background-color: #252932;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url(background.jpg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, .5);
 }
 
-nav {
+header * {
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
+footer {
+    height: 10vw;
+    width: 100%;
+    background: linear-gradient(rgb(37, 41, 50), #0d0d0d);
     display: flex;
     justify-content: center;
+    margin: 0;
+    align-self: flex-end;
 }
 
-nav ul {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    list-style: none;
-    padding-left: 0;
 
-
-}
-
-nav ul li {
-    position: relative;
-    padding-right: 2em;
-}
-
-.dropdown > ul {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    padding: 0.5em;
-}
-
-.dropdown > ul li {
-    white-space: nowrap;
-    padding: 0 2em;
-}
-
-.dropdown:hover > ul {
+#about {
     display: block;
-    background-color: rgba(255, 255, 255, 0.82);
+    width: 35vw;
+    height: 30vw;
+    background: url(profil.jpg);
+    background-size: cover;
+    margin-right: 2em;
+box-shadow: 0px 3px 2px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: opacity 1s, color .4s;
+    border-radius: 10px;
 }
 
-.dropdown:hover > ul a {
-    color: rgba(0, 0, 0, 0.92);
+#about:hover {
+     transition: opacity 1s, color .4s;
+}
+#tema1 {
+     display: block;
+    width: 35vw;
+    height: 30vw;
+    background: url(mobile_version_test_v2.png);
+    background-size: cover;
+    margin-left: 2em;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+#tema2 {
+     display: block;
+    width: 35vw;
+    height: 30vw;
+    background: url(dialegd_2.JPG);
+    background-size: cover;
+    margin-right: 2em;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+#tema3 {
+     display: block;
+    width: 35vw;
+    height: 30vw;
+    background: url(tema_ani.png);
+    background-size: cover;
+    margin-left: 2em;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+#tema4 {
+     display: block;
+    width: 35vw;
+    height: 30vw;
+    background: url(joe_portfolie_2.png);
+    background-size: 35vw 30vw;
+    margin-left: 2em;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#container a {
+    opacity: 0;
     text-decoration: none;
-}
-
-nav a {
     color: white;
-    text-decoration: none;
-    font-size: 1.5em;
+    font-size: 3em;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 4em;
+    transition: opacity 1s, color .4s;
+    z-index: 1;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, .5);
 }
+
+#container a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 3em;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 4em;
+    opacity: 100;
+    z-index: 1;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, .5);
+}
+
+
+/*FORSIDE NAVIGATION*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(37, 41, 50);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    color: #818181;
+    display: block;
+
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 8px 8px 8px 32px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.sidenav.show {
+    width: 275px;
+}
+
+.menubutton {
+    position: absolute;
+    top: 0;
+    padding-left: 10px;
+
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#container footer a {
+    opacity: 100;
+    text-decoration: none;
+    color: #ababab;
+   font-size: 1.5em;
+   text-shadow: 0px 0px 0px;
+   margin: 0;
+   padding-top: 4.4em;
+   padding-left: 1em;
+
+}
+#container footer a:hover {
+    opacity: 100;
+    text-decoration: none;
+    color: white;
+   font-size: 1.5em;
+    text-shadow: 0px 0px 0px;
+    margin: 0;
+    padding-top: 4.4em;
+   padding-left: 1em;
+}
+

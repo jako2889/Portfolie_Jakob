@@ -17,7 +17,7 @@ header {
     top: 0;
     left: 0;
     padding: 30px 0;
-    background-color: rgba(37, 41, 50, 0.83);
+    background-color: black;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, .5);
 }
 
@@ -55,10 +55,13 @@ nav a:hover {
     width: 100%;
     padding-bottom: 5em;
 }
+#txt h2 {
+    margin-top: 0px;
+}
 
 #txt {
  padding: 0;
-padding-left: 15em;
+padding-left: 2em;
  margin: 0;
     width: 700px;
 }
@@ -69,10 +72,10 @@ padding-left: 15em;
 }
 
 #profil_img {
-    padding: 1em;
     margin: 0;
     background-color: black;
     width: 300px;
+    height: 300px;
     margin-left: 1em;
 
 
@@ -91,6 +94,7 @@ h2 {
 img {
     width: 300px;
     height: 300px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, .5);
 
 }
 #cv_img {

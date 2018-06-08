@@ -250,8 +250,11 @@ h2 {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 
+}
+#animations_links h2 {
+    padding-bottom: 1em;
 }
 #animations_links a {
     text-decoration: none;

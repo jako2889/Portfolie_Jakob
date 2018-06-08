@@ -290,3 +290,52 @@ box-shadow: 3px 3px 2px rgba(0, 0, 0, .5);
    padding-left: 1em;
 }
 
+@media only screen and (max-width: 500px) {
+    header img {
+        left: 3.5em;
+        top: 10em;
+    }
+    header h1 {
+        margin-top: 200px;
+    }
+    #container {
+        display: inline;
+        height: auto;
+    }
+    #about {
+        width: 80vw;
+        height: 70vw;
+        margin-left: 2em;
+    }
+    #tema1 {
+        width: 80vw;
+        height: 70vw;
+    }
+    #tema2 {
+        width: 80vw;
+        height: 70vw;
+        margin-left: 2em;
+        margin-right: 0;
+    }
+    #tema3 {
+        width: 80vw;
+        height: 70vw;
+    }
+    #tema4 {
+        width: 80vw;
+        height: 70vw;
+        background-size: cover;
+    }
+    #container p {
+        width: 350px;
+        padding-left: 2em;
+    }
+    footer {
+        height: 35vw;
+        justify-content: flex-start;
+    }
+    #container footer a {
+        font-size: 1em;
+        padding-left: 2em;
+    }
+}

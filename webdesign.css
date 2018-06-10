@@ -471,7 +471,7 @@ top: 74.2em;
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) and (min-width: 500px) {
     ul {
         padding-top: 58em;
     }

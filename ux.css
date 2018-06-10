@@ -180,6 +180,9 @@ h2 {
     padding-left: 5em;
     padding-top: 8em;
 }
+#text2 a {
+    color: white;
+}
 
 #text2 p {
     color: white;
@@ -388,7 +391,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) and (min-width: 500px) {
     ul {
         padding-top: 62em;
     }

@@ -175,16 +175,16 @@ h2 {
 }
 
 
-#text2 {
+.text2 {
     width: 700px;
     padding-left: 5em;
     padding-top: 8em;
 }
-#text2 a {
+.text2 a {
     color: white;
 }
 
-#text2 p {
+.text2 p {
     color: white;
     width: 600px;
 }
@@ -336,15 +336,15 @@ h2 {
         height: 300px;
         padding-left: 7px;
     }
-    #text2 {
+    .text2 {
         width: 100vw;
         padding: 0;
     }
-    #text2 p {
+    .text2 p {
         width: 400px;
         padding-left: 7px;
     }
-    #text2 h2 {
+    .text2 h2 {
         padding-left: 7px;
     }
     #tema2_bottom {

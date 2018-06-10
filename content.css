@@ -236,3 +236,103 @@ h2 {
 
     color: white;
 }
+
+@media only screen and (max-width: 500px) {
+
+    html {
+        box-sizing: border-box;
+    }
+    header {
+        box-sizing: border-box;
+        width: 100vw;
+    }
+
+    nav a{
+        padding-right: 0.5em;
+        font-size: 0.6em;
+    }
+    header img {
+        width: 75px;
+        height: 20px;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    nav {
+        padding-left: 10px;
+    }
+                footer {
+        height: 35vw;
+        justify-content: flex-start;
+    }
+     footer a {
+        font-size: 1em;
+        padding-left: 2em;
+    }
+    #text1 p {
+        margin: 0;
+        width: 400px;
+        padding: 0;
+    }
+    #splash img {
+        width: 90vw;
+        height: 50vw;
+    }
+        ul {
+        padding-top: 28em;
+    }
+    ul li.next span {
+        top: 30.5em;
+    }
+    #tema2_top {
+        width: 100vw;
+        padding: 0;
+        padding-left: 10px;
+        padding-top: 4em;
+    }
+    #text2 {
+        width: 100vw;
+        padding: 0;
+        padding-top: 4em;
+    }
+    #text2 p {
+        width: 400px;
+        padding-left: 5px;
+    }
+    #tema2_top iframe {
+        width: 400px;
+        height: 400px;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    #tema2_bottom {
+        display: inline;
+        width: 100vw;
+        padding: 0;
+        padding-left: 10px;
+        padding-top: 1em;
+    }
+    #tema2_bottom iframe {
+        width: 400px;
+        height: 400px;
+    }
+    #text2 h2 {
+        padding-left: 0;
+    }
+    #text3 p {
+        padding-left: 5px;
+    }
+    #text3 h2 {
+        padding-right: 6em;
+    }
+    #redesign_img img {
+        width: 400px;
+        height: 300px;
+        padding: 0;
+        padding-bottom: 2em;
+    }
+    #redesign_img a {
+        padding: 1em;
+    }
+
+}

@@ -352,6 +352,7 @@ top: 74.2em;
     padding: 2em 2em 2em 16em;
     box-shadow: 0px 0px 0px;
 }
+
 @media only screen and (max-width: 500px) {
 
     html {
@@ -363,7 +364,7 @@ top: 74.2em;
     }
 
     nav a{
-        padding-right: 1em;
+        padding-right: 0.5em;
         font-size: 0.6em;
     }
     header img {
@@ -373,7 +374,7 @@ top: 74.2em;
         padding-right: 10px;
     }
     nav {
-        padding-left: 0;
+        padding-left: 10px;
     }
     #top p {
         width: 400px;

@@ -253,6 +253,10 @@ footer a:hover {
         padding-right: 1em;
         font-size: 0.6em;
     }
+        nav a:hover {
+                padding-right: 0.5em;
+        font-size: 0.6em;
+    }
     header {
         height: 5vw;
     }
@@ -298,6 +302,10 @@ footer a:hover {
         width: 100vw;
     }
     nav a {
+        font-size: 0.5em;
+    }
+        nav a:hover {
+
         font-size: 0.5em;
     }
     #profil_img {

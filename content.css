@@ -356,3 +356,60 @@ h2 {
         text-align: initial;
     }
 }
+@media only screen and (max-width: 400px) {
+    header {
+        width: 100vw;
+    }
+    nav a {
+        font-size: 0.5em;
+    }
+    nav a:hover {
+
+        font-size: 0.5em;
+    }
+    #text1 p {
+        width: 350px;
+        margin: 0;
+        padding-left: 10px;
+    }
+    ul {
+        padding-top: 27.5em;
+    }
+    ul li.next span {
+        top: 30em;
+    }
+    #tema2_top {
+        padding-left: 0;
+    }
+    #tema2_top iframe {
+        width: 350px;
+        height: 350px;
+        padding-left: 10px;
+    }
+    .text2 p {
+        width: 350px;
+        padding-left: 10px;
+    }
+    .text2 h2 {
+        padding-left: 10px;
+    }
+    #tema2_bottom iframe {
+        width: 350px;
+        height: 350px;
+        padding-left: 10px;
+    }
+    #text3 h2 {
+        padding-right: 4em;
+    }
+    #text3 p {
+        padding-left: 10px;
+        width: 350px;
+    }
+    #redesign_img img {
+        width: 350px;
+        height: 250px;
+    }
+    footer a {
+        padding-left: 1em;
+    }
+}

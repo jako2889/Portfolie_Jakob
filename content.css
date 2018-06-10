@@ -417,3 +417,31 @@ h2 {
         padding-left: 1em;
     }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+    nav {
+        padding-left: 3em;
+    }
+    #text1 p {
+        padding-left: 21vw;
+    }
+    ul {
+        padding-top: 50em;
+    }
+    ul li.next span {
+        top: 52.5em;
+    }
+    #text3 p {
+        padding-left: 23vw;
+    }
+    .text2 {
+        padding-left: 3em;
+    }
+    .text2 p {
+        width: 500px;
+    }
+    #text3 p {
+        width: 600px;
+        padding-left: 4vw;
+    }
+}

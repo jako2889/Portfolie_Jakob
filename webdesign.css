@@ -547,3 +547,26 @@ top: 74.2em;
         padding-left: 1em;
     }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+    nav {
+        padding-left: 3em;
+    }
+    #text1 p {
+        padding-left: 21vw;
+    }
+    ul {
+        padding-top: 47em;
+    }
+    ul li.next span {
+        top: 49.5em;
+    }
+    #text2 {
+        width: 530px;
+        padding-left: 2em;
+    }
+    #text3 {
+        width: 530px;
+        padding-left: 2em;
+    }
+}

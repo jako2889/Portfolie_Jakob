@@ -322,3 +322,9 @@ footer a:hover {
         padding: 0;
     }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+    nav {
+        padding-left: 3em;
+    }
+}

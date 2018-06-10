@@ -479,3 +479,31 @@ h2 {
         padding-left: 1em;
     }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+    nav {
+        padding-left: 3em;
+    }
+    #text1 p {
+        padding-left: 21vw;
+    }
+    ul {
+        padding-top: 51em;
+    }
+    ul li.next span {
+        top: 53.5em;
+    }
+    .text2 {
+        width: 100%;
+        padding-left: 1em;
+    }
+    .text2 p {
+        width: 500px;
+    }
+    #tema2_top {
+        padding-left: 1em;
+    }
+    #text3 p {
+        padding-left: 23vw;
+    }
+}

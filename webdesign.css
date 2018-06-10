@@ -352,3 +352,118 @@ top: 74.2em;
     padding: 2em 2em 2em 16em;
     box-shadow: 0px 0px 0px;
 }
+@media only screen and (max-width: 500px) {
+
+    html {
+        box-sizing: border-box;
+    }
+    header {
+        box-sizing: border-box;
+        width: 100vw;
+    }
+
+    nav a{
+        padding-right: 1em;
+        font-size: 0.6em;
+    }
+    header img {
+        width: 75px;
+        height: 20px;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    nav {
+        padding-left: 0;
+    }
+    #top p {
+        width: 400px;
+        padding-left: 5px;
+    }
+    #text1 h2 {
+        padding-left: 32vw;
+    }
+    #splash img {
+        width: 90vw;
+        height: 50vw;
+    }
+    ul {
+        padding-top: 25em;
+    }
+    ul li.next span {
+        top: 27.2em;
+    }
+    p {
+        width: 400px;
+    }
+    #stilart {
+        width: 100vw;
+    }
+            footer {
+        height: 35vw;
+        justify-content: flex-start;
+    }
+     footer a {
+        font-size: 1em;
+        padding-left: 2em;
+    }
+    #text2 {
+        width: 100vw;
+        padding: 0;
+    }
+    #text2 p {
+        margin: 0;
+        margin-left: 5px;
+    }
+    #text3 {
+        width: 100vw;
+        padding: 0;
+    }
+    #text3 p {
+        margin: 0;
+        margin-left: 5px;
+    }
+    #text4 {
+        width: 100vw;
+        padding: 0;
+    }
+    #splash_process p {
+        width: 400px;
+        margin-left: 10px;
+    }
+    #splash_process img {
+        width: 400px;
+        height: 400px;
+        padding-left: 7px;
+    }
+    #text4 p {
+        width: 400px;
+        padding-left: 10px;
+    }
+    #text4 img {
+        padding: 0;
+        padding-left: 3.5em;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    #tema1 img {
+        width: 80vw;
+        height: 50vw;
+        margin-left: 2.5em;
+    }
+    #text2 h2 {
+        padding-left: 4em;
+    }
+    #text3 h2 {
+        padding-left: 1.5em;
+    }
+    #link_img img {
+        width: 150px;
+        height: 40px;
+        padding: 1em;
+    }
+    #splash_process h2 {
+        padding-left: 0.5em;
+
+    }
+
+}

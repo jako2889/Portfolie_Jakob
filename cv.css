@@ -292,3 +292,25 @@ footer a:hover {
         padding-top: 3em;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    header {
+        width: 100vw;
+    }
+    nav a {
+        font-size: 0.5em;
+    }
+    #profil_img {
+        margin-left: 2.5em;
+    }
+    #txt {
+    padding: 10px;
+    width: 100vw;
+    }
+    #top {
+        padding-bottom: 0;
+    }
+    #txt p {
+        padding: 0;
+    }
+}

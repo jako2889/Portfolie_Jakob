@@ -334,8 +334,28 @@ box-shadow: 3px 3px 2px rgba(0, 0, 0, .5);
         height: 35vw;
         justify-content: flex-start;
     }
-    #container footer a {
-        font-size: 1em;
-        padding-left: 2em;
+    #container a{
+        font-size: 1.5em;
+        padding-top: 5em;
+    }
+    #container a:hover {
+                font-size: 1.5em;
+        padding-top: 5em;
+    }
+}
+@media only screen and (max-width: 400px) {
+    header img {
+        left: 2em;
+    }
+    #container p {
+        padding-left: 1em;
+    }
+    #container a{
+        font-size: 1.5em;
+        padding-top: 5em;
+    }
+    #container a:hover {
+                font-size: 1.5em;
+        padding-top: 5em;
     }
 }

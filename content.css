@@ -251,6 +251,10 @@ h2 {
         padding-right: 0.5em;
         font-size: 0.6em;
     }
+        nav a:hover {
+                padding-right: 0.5em;
+        font-size: 0.6em;
+    }
     header img {
         width: 75px;
         height: 20px;

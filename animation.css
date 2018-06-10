@@ -281,6 +281,10 @@ h2 {
         padding-right: 0.5em;
         font-size: 0.6em;
     }
+            nav a:hover {
+                padding-right: 0.5em;
+        font-size: 0.6em;
+    }
     header img {
         width: 75px;
         height: 20px;
@@ -396,5 +400,66 @@ h2 {
     }
     #tema2_bottom {
         flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        width: 100vw;
+    }
+    nav a {
+        font-size: 0.5em;
+    }
+    nav a:hover {
+
+        font-size: 0.5em;
+    }
+    #text1 p {
+        width: 350px;
+        margin: 0;
+        padding-left: 10px;
+    }
+    ul {
+        padding-top: 27.5em;
+    }
+    ul li.next span {
+        top: 30em;
+    }
+    #tema2_top img {
+        width: 350px;
+        height: 250px;
+        padding-left: 10px;
+    }
+    .text2 p {
+        width: 350px;
+        padding-left: 10px;
+    }
+    #tema2_bottom img {
+        width: 350px;
+        height: 250px;
+        padding-right: 15px;
+    }
+    #text3 p {
+        width: 350px;
+        padding-left: 10px;
+    }
+    #scrum_intro img {
+        width: 350px;
+        height: 250px;
+    }
+    #javascript p {
+        width: 350px;
+        padding-left: 10px;
+    }
+    #javascript h2 {
+        padding-left: 10px;
+    }
+    #javascript img {
+        width: 350px;
+        height: 250px;
+        padding-left: 10px;
+    }
+    footer a {
+        padding-left: 1em;
     }
 }

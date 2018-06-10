@@ -327,6 +327,7 @@ h2 {
     }
                 ul {
         padding-top: 23em;
+                    display: none;
     }
     ul li.next span {
         top: 25.5em;

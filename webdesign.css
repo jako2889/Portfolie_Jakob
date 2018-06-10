@@ -470,3 +470,12 @@ top: 74.2em;
         padding-top: 5em;
     }
 }
+
+@media screen and (max-width: 1440px) {
+    ul {
+        padding-top: 58em;
+    }
+    ul li.next span {
+        top: 60.2em;
+    }
+}

@@ -338,3 +338,21 @@ h2 {
         padding-top: 5em;
     }
 }
+
+@media screen and (max-width: 1440px) {
+    ul {
+        padding-top: 62em;
+    }
+    ul li.next span {
+        top: 64.5em;
+    }
+    #tema2_top {
+        flex-wrap: nowrap;
+    }
+    #tema2_bottom {
+        flex-wrap: nowrap;
+    }
+    #text1 p {
+        text-align: initial;
+    }
+}

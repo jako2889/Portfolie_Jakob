@@ -383,3 +383,18 @@ h2 {
         padding-top: 5em;
     }
 }
+
+@media screen and (max-width: 1440px) {
+    ul {
+        padding-top: 60em;
+    }
+    ul li.next span {
+        top: 62.5em;
+    }
+        #tema2_top {
+        flex-wrap: nowrap;
+    }
+    #tema2_bottom {
+        flex-wrap: nowrap;
+    }
+}

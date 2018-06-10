@@ -328,3 +328,22 @@ footer a:hover {
         padding-left: 3em;
     }
 }
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+    nav a {
+        font-size: 1em;
+    }
+    nav a:hover {
+        font-size: 1em;
+    }
+    nav {
+        padding-left: 3em;
+    }
+    #cv_img img {
+        width: 400px;
+        height: 400px;
+        padding: 1em;
+    }
+    footer {
+        height: 15vw;
+    }
+}

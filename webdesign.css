@@ -571,3 +571,37 @@ top: 74.2em;
         padding-left: 2em;
     }
 }
+
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+    nav a {
+        font-size: 1em;
+    }
+    nav a:hover {
+        font-size: 1em;
+    }
+    nav {
+        padding-left: 3em;
+    }
+    #text1 p {
+        padding-left: 14vw;
+    }
+    ul {
+        padding-top: 53em;
+    }
+    ul li.next span {
+        top: 55.5em;
+    }
+    #text2 {
+        padding-left: 0;
+        padding-top: 3em;
+    }
+    #tema1 img {
+        width: 48vw;
+    }
+    #text3 {
+        padding-left: 0;
+    }
+    footer {
+        height: 15vw;
+    }
+}

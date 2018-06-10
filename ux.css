@@ -481,7 +481,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 1280px) and (min-width: 900px) {
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
     nav {
         padding-left: 3em;
     }
@@ -506,5 +506,50 @@ h2 {
     }
     #text3 p {
         padding-left: 23vw;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+    nav a {
+        font-size: 1em;
+    }
+    nav a:hover {
+        font-size: 1em;
+    }
+    nav {
+        padding-left: 3em;
+    }
+    #text1 p {
+        padding-left: 14vw;
+    }
+    ul {
+        padding-top: 58em;
+    }
+    ul li.next span {
+        top: 60.5em;
+    }
+    .text2 {
+        width: 500px;
+        padding-left: 10px;
+        padding-top: 0;
+    }
+    #tema2_top {
+        padding-left: 10px;
+    }
+    #tema2_top img {
+        width: 500px;
+        height: 350px;
+    }
+    .text2 p {
+        width: 500px;
+    }
+    #tema2_bottom img {
+        width: 500px;
+        height: 350px;
+    }
+    #text3 p {
+        padding-left: 16vw;
+    }
+    footer {
+        height: 15vw;
     }
 }

@@ -369,3 +369,41 @@ box-shadow: 3px 3px 2px rgba(0, 0, 0, .5);
         height: 140vw;
     }
 }
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+    #container p {
+        padding-left: 10em;
+    }
+    header img {
+        top: 9vw;
+        left: 35vw;
+    }
+    #container {
+        justify-content: inherit;
+        height: 170vw;
+    }
+    #about {
+        width: 50vw;
+        height: 40vw;
+    }
+    #tema1 {
+        width: 50vw;
+        height: 40vw;
+    }
+        #tema2 {
+        width: 50vw;
+        height: 40vw;
+    }
+        #tema3 {
+        width: 50vw;
+        height: 40vw;
+    }
+        #tema4 {
+        width: 50vw;
+        height: 40vw;
+        margin-left: 25vw;
+            background-size: cover;
+    }
+    footer {
+        height: 15vw;
+    }
+}

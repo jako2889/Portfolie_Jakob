@@ -273,3 +273,117 @@ h2 {
     justify-content: center;
     padding-bottom: 1em;
 }
+
+@media only screen and (max-width: 500px) {
+
+    html {
+        box-sizing: border-box;
+    }
+    header {
+        box-sizing: border-box;
+        width: 100vw;
+    }
+
+    nav a{
+        padding-right: 0.5em;
+        font-size: 0.6em;
+    }
+    header img {
+        width: 75px;
+        height: 20px;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    nav {
+        padding-left: 10px;
+    }
+                footer {
+        height: 35vw;
+        justify-content: flex-start;
+    }
+     footer a {
+        font-size: 1em;
+        padding-left: 2em;
+    }
+    #text1 p {
+        width: 400px;
+        padding: 0;
+        margin: 0;
+        padding-top: 1em;
+    }
+    #splash img {
+        width: 90vw;
+        height: 50vw;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+                ul {
+        padding-top: 23em;
+    }
+    ul li.next span {
+        top: 25.5em;
+    }
+    #tema2_top {
+        padding: 0;
+        padding-top: 2em;
+    }
+    #tema2_top img {
+        width: 400px;
+        height: 300px;
+        padding-left: 7px;
+    }
+    #text2 {
+        width: 100vw;
+        padding: 0;
+    }
+    #text2 p {
+        width: 400px;
+        padding-left: 7px;
+    }
+    #text2 h2 {
+        padding-left: 7px;
+    }
+    #tema2_bottom {
+        width: 100vw;
+        padding: 0;
+    }
+    #tema2_bottom img {
+        width: 400px;
+        height: 300px;
+        padding-right: 7px;
+    }
+    #text3 p {
+        width: 400px;
+        padding: 0;
+        padding-left: 7px;
+    }
+    #text3 h2 {
+        text-align: inherit;
+        padding-left: 7px;
+    }
+    #kea_app img {
+        width: 400px;
+        height: 300px;
+        padding: 0;
+    }
+    #joe_app {
+        width: 100vw;
+    }
+    #joe_app p {
+        width: 400px;
+        padding-bottom: 0;
+        padding-left: 7px;
+    }
+    #joe_app h2 {
+        padding-left: 7px;
+    }
+    #joe_app img {
+        width: 400px;
+        height: 300px;
+        padding-left: 7px;
+    }
+    #splash {
+        padding-top: 5em;
+    }
+}

@@ -253,6 +253,9 @@ footer a:hover {
         padding-right: 1em;
         font-size: 0.6em;
     }
+    header {
+        height: 5vw;
+    }
     header img {
         width: 75px;
         height: 20px;
@@ -284,5 +287,8 @@ footer a:hover {
      footer a {
         font-size: 1em;
         padding-left: 2em;
+    }
+        #splash {
+        padding-top: 3em;
     }
 }

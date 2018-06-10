@@ -312,10 +312,10 @@ h2 {
         font-size: 1.6em;
     }
             ul {
-        padding-top: 29em;
+        padding-top: 23em;
     }
     ul li.next span {
-        top: 31.5em;
+        top: 25.5em;
     }
     #tema2_top {
         padding-left: 0;
@@ -378,5 +378,8 @@ h2 {
     }
     #animations_links a {
         text-align: center;
+    }
+        #splash {
+        padding-top: 5em;
     }
 }

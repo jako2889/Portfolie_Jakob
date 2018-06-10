@@ -388,10 +388,10 @@ top: 74.2em;
         height: 50vw;
     }
     ul {
-        padding-top: 25em;
+        padding-top: 20em;
     }
     ul li.next span {
-        top: 27.2em;
+        top: 22.2em;
     }
     p {
         width: 400px;
@@ -466,5 +466,7 @@ top: 74.2em;
         padding-left: 0.5em;
 
     }
-
+    #splash {
+        padding-top: 5em;
+    }
 }

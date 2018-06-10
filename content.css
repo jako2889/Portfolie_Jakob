@@ -278,10 +278,10 @@ h2 {
         height: 50vw;
     }
         ul {
-        padding-top: 28em;
+        padding-top: 21em;
     }
     ul li.next span {
-        top: 30.5em;
+        top: 23.5em;
     }
     #tema2_top {
         width: 100vw;
@@ -334,5 +334,7 @@ h2 {
     #redesign_img a {
         padding: 1em;
     }
-
+    #splash {
+        padding-top: 5em;
+    }
 }

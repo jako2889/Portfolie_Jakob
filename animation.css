@@ -266,3 +266,117 @@ h2 {
 #animations_links a:hover {
     opacity: 0.7;
 }
+
+@media only screen and (max-width: 500px) {
+
+    html {
+        box-sizing: border-box;
+    }
+    header {
+        box-sizing: border-box;
+        width: 100vw;
+    }
+
+    nav a{
+        padding-right: 0.5em;
+        font-size: 0.6em;
+    }
+    header img {
+        width: 75px;
+        height: 20px;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    nav {
+        padding-left: 10px;
+    }
+                footer {
+        height: 35vw;
+        justify-content: flex-start;
+    }
+     footer a {
+        font-size: 1em;
+        padding-left: 2em;
+    }
+    #text1 p {
+        width: 400px;
+        padding: 0;
+        margin: 0;
+        padding-top: 1em;
+    }
+    #splash img {
+        width: 90vw;
+        height: 50vw;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+            ul {
+        padding-top: 29em;
+    }
+    ul li.next span {
+        top: 31.5em;
+    }
+    #tema2_top {
+        padding-left: 0;
+        width: 100vw;
+    }
+    #tema2_top img {
+        width: 400px;
+        height: 300px;
+        padding-left: 7px;
+    }
+    #text2 {
+        width: 100vw;
+        padding: 0;
+    }
+    #text2 p {
+        width: 400px;
+        padding-left: 7px;
+    }
+    #text2 h2 {
+        padding-left: 7px;
+    }
+    #tema2_bottom {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+    #tema2_bottom img {
+        width: 400px;
+        height: 300px;
+        padding-right: 0.5em;
+    }
+    #text3 p {
+        padding: 0;
+        width: 400px;
+        padding-left: 7px;
+    }
+    #text3 h2 {
+        text-align: inherit;
+        padding-left: 7px;
+    }
+    #scrum_intro img {
+        width: 400px;
+        height: 300px;
+        padding: 0;
+    }
+    #javascript {
+        width: 100vw;
+    }
+    #javascript p {
+        width: 400px;
+        padding-left: 7px;
+    }
+    #javascript h2 {
+        padding-left: 7px;
+    }
+    #javascript img {
+        width: 400px;
+        height: 300px;
+        padding-left: 7px;
+    }
+    #animations_links a {
+        text-align: center;
+    }
+}
